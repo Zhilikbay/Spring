@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-rus">
+<head>
+    <title>Microsoft</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="3.css">
+    <style>
+        .back1 {
+            display: flex;
+            justify-content: space-between; /* чтобы элементы равномерно распределились по контейнеру */
+            align-items: center; /* чтобы выровнять элементы по вертикали */
+            flex-wrap: nowrap; /* чтобы элементы не переносились на новую строку */
+        }
+
+        .back1>a>img {
+            width: 20%; /* установите любую желаемую ширину */
+            height: auto;
+        }
+
+        .back1>a>img:hover {
+            filter: brightness(100%);
+        }
+
+        .back1>p {
+            width: 20%; /* установите любую желаемую ширину */
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+
+        .pht {
+            font-size: 20px;
+            font-weight: 300;
+        }
+
+        .back1>button {
+            width: 20%; /* установите любую желаемую ширину */
+            border-radius: 0px;
+            border: 0px solid black;
+            background-color: white;
+            color: blue;
+            height: 35px;
+            font-weight: 500;
+            font-size: 15px;
+            text-align: left;
+        }
+
+        .back1>button::after {
+            content: '';
+            width: 0px;
+            height: 2px;
+            display: block;
+            background: blue;
+            transition: all 300ms ease-in-out;
+        }
+
+        .back1>button:hover::after {
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+<div class="back1">
+    <a href=""><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4CFyx?ver=25c5&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&x=839&y=615&aim=true"></a>
+    <a href=""><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rzE2?ver=aa0b&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"></a>
+    <a href=""><img src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3hD2k?ver=6539&q=90&m=6&h=201&w=358&b=%23FFFFFFFF&l=f&o=t&aim=true"></a>
+    <a href=""><img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-CP-MSCOM-Outlook-iOS-Android?wid=406&hei=230&fit=crop"></a>
+
+    <p><strong class="pht">Microsoft Teams</strong><br>Общайтесь, проводите собрания, звоните и <br>сотрудничайте.<br> </p>
+    <p><strong class="pht">Microsoft Edge</strong><br>Потрясающая производительность, больше<br> конфиденциальности, продуктивности и<br> дополнительных возможностей.</p>
+    <p><strong class="pht">Microsoft OneDrive</strong><br>Сохраняйте свои файлы и фотографии на<br> OneDrive — они будут доступны с любого устройства<br> и где угодно.</p>
+    <p><strong class="pht">Outlook для iOS и Android</strong><br>Будьте на связи. Организовывайте.<br>Успевайте больше.</p>
+
+    <button>Подробнее  ></button>
+    <button>Скачать  ></button>
+    <button>Подробнее  ></button>
+    <button>Скачать  ></button>
+
+</div>
+</body>
+</html>

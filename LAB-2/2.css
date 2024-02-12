@@ -191,25 +191,27 @@ input[type="submit"] {
 
 .apps {
     width: 330px;
-    height: 40px;
     margin-top: 21px;
+    text-align: center;
 }
 
 .apps p {
-    text-align: center;
-
+    margin-bottom: 10px;
 }
+
 
 .image-apps {
     margin-top: 18px;
     margin-left: 33px;
+    display: flex;
 }
 
-.image-apps img{
+.image-apps img {
     width: 136px;
     height: 40px;
-
+    margin-right: 10px;
 }
+
 .footer{
     width: 750px;
     height: 120px;

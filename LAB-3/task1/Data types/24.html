@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function getWeekDay(date) {
+        let days = ['SU', 'MO', 'TU', 'WE', 'TH', 'FR', 'SA'];
+        return days[date.getDay()];
+    }
+    let date = new Date(2014, 0, 3);
+    alert( getWeekDay(date) );
+
+    function getDateAgo(date, days) {
+        let dateCopy = new Date(date);
+        dateCopy.setDate(date.getDate() - days);
+        return dateCopy.getDate();
+    }
+    let date = new Date(2015, 0, 2);
+    alert( getDateAgo(date, 1) );
+    alert( getDateAgo(date, 2) );
+    alert( getDateAgo(date, 365) );
+
+
+    function getLastDayOfMonth(year, month) {
+        let date = new Date(year, month + 1, 0);
+        return date.getDate();
+    }
+    alert( getLastDayOfMonth(2012, 0) );
+    alert( getLastDayOfMonth(2012, 1) );
+    alert( getLastDayOfMonth(2013, 1) );
+</script>
+
+</body>
+</html>
