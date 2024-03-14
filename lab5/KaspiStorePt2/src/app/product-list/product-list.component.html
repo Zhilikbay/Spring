@@ -1,0 +1,3 @@
+<div *ngFor="let product of products">
+  <app-product-item *ngIf="product.category == category" [product]="product" (delete)="deleteFunc($event)" class="product-item"></app-product-item>
+</div>

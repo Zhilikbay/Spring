@@ -1,0 +1,10 @@
+div
+{
+  display: inline-flex;
+}
+.product-item
+{
+  margin-right: 100px;
+  margin-bottom: 20px;
+  width: 370px;
+}

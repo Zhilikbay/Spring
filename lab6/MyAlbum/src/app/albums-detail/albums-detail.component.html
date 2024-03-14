@@ -1,0 +1,22 @@
+<div class="box">
+    <div (click)="returnBack()" class="return_back">
+        <i >⤵</i>
+    </div>
+    <div>
+        <div class="album_id">{{album.id}}
+            <div class="id_title">Album ID</div>
+        </div>
+        <div class="album_details">
+            <span><strong style="font-weight: 500; font-size: 19px;">User id:</strong> {{album.userId}}</span>
+            <span><strong style="font-weight: 500; font-size: 19px;">Title:</strong> {{album.title}}</span>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <a [routerLink]="'/albums-component/' + album.id + '/photos'" class="album_photos">View photos</a>
+        <div class="update_title">
+            <input type="text" [(ngModel)]="updatedAlbum.title" value="{{album.title}}">
+            <button (click)="updateTitle(album.id)">Update title</button>
+        </div>
+    </div>
+</div>

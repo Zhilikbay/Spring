@@ -1,0 +1,46 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+}
+
+button
+{
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+h1 {
+  padding-top: 8px;
+  padding-right: 690px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color: black;
+}
+
+
+app-top {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(217, 214, 214, 0.73);
+  box-shadow: 1px 1px;
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#kaspi_icon {
+  width: 60px;
+  margin-left: 600px;
+}
+

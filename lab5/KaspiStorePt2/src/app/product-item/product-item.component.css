@@ -1,0 +1,70 @@
+.item_prod
+{
+  width: 400px;
+  margin: 0 10px 60px 0;
+}
+.delete
+{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.item_prod img
+{
+  position: relative;
+  width: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 30px;
+}
+.rating
+{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.stars
+{
+  display: flex;
+  align-items: center;
+  margin: -2px 0 0 30px;
+}
+.bottom
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttons_item
+{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 50px;
+  background: rgb(238, 31, 98);
+}
+.btns
+{
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #fff;
+  cursor: pointer;
+}
+.likes_btn
+{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: 15px;
+  color: rgb(255, 90, 0);
+  font-weight: bold;
+}

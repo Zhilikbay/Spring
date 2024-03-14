@@ -1,0 +1,9 @@
+<div class="box">
+  <div *ngFor="let category of categories">
+    <button class="button" (click)="Show(category.categories)">
+      {{category.categories}}
+    </button>
+  </div>
+</div>
+
+<app-product-list [category]="currCat"></app-product-list>

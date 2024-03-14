@@ -1,0 +1,106 @@
+.box {
+    padding: 30px 0 30px 30px;
+}
+.add_album {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.add_album span {
+    font-size: 17px;
+    font-weight: 500;
+    display: block;
+    margin-right: 30px;
+}
+.add_album input {
+    width: 200px;
+    height: 45px;
+    border-radius: 6px;
+    background: #f5f5f5;
+    border: 1px solid #c461c4;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 10px;
+    padding: 0 20px;
+}
+.add_album .input_title {
+    width: 900px;
+}
+.add_album button {
+    cursor: pointer;
+    border: none;
+    width: 120px;
+    height: 45px;
+    background: rgb(196, 97, 196);
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s;
+}
+.title {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.albums_box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.album_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    color: #000;
+    transition: .3s;
+}
+.album_top {
+    font-size: 19px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 17px;
+    position: relative;
+}
+.album_top::after {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -10px;
+}
+.album_top span {
+    cursor: pointer;
+    transition: .3s;
+}
+.album_details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.album_details span {
+    margin-top: 5px;
+}
+.album_open {
+    width: 100%;
+    text-align: center;
+    background: rgb(196, 97, 196);
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    padding: 13px 0;
+    transition: .3s;
+}

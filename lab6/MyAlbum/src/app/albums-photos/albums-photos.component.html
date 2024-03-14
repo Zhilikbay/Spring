@@ -1,0 +1,10 @@
+<div class="box">
+    <a (click)="returnBack()" class="return_back">
+        <i>⤵</i>
+    </a>
+    <div class="album_photos">
+        <div *ngFor="let photo of AlbumPhotos">
+            <img src="{{photo.url}}" alt="">
+        </div>
+    </div>
+</div>

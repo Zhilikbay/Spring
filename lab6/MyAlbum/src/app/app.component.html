@@ -1,0 +1,15 @@
+<div class="box">
+    <div class="top">
+        <a [routerLink]="['/home-component']" class="logo">
+            <i class="material-icons">My Gallery</i>
+        </a>
+        <nav>
+            <ul>
+                <li><a [routerLink]="['/home-component']">Home</a></li>
+                <li><a [routerLink]="['/about-component']">About</a></li>
+                <li><a [routerLink]="['/albums-component']">Albums</a></li>
+            </ul>
+        </nav>
+    </div>
+    <router-outlet></router-outlet>
+</div>

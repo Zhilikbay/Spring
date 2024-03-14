@@ -1,0 +1,17 @@
+.app-top
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  padding: 0 0 0;
+  background: rgba(229, 160, 160, 0.64);
+}
+.box
+{
+  display: flex;
+  flex-direction: column;
+  padding: 40px 0 40px 60px;
+  font-family: 'Montserrat', sans-serif;
+}
