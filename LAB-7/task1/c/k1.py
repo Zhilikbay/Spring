@@ -1,8 +1,9 @@
-a=int(input())
-numbers = []
+n = int(input())
+cnt = 0
 
-for i in range(a):
+for _ in range(n):
     number = int(input())
-    numbers.append(number)
+    cnt += number
 
-print("Список чисел:", numbers)
+print(cnt)
+

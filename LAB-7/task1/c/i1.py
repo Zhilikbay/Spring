@@ -1,7 +1,12 @@
-a=int(input())
-sum=0
+import math
 
-for i in range(1,a+1):
-    if a%i==0:
-        sum+=1
-print(sum)
+x = int(input())
+cnt = 0
+
+for i in range(1, int(math.sqrt(x)) + 1):
+    if x % i == 0:
+        cnt += 1
+        if i != math.sqrt(x):
+            cnt += 1
+
+print(cnt)
